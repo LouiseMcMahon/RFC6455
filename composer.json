@@ -33,7 +33,7 @@
         "phpunit/phpunit": "^5.7",
         "react/socket": "^1.3"
     },
-    "replaces": {
+    "replace": {
         "ratchet/rfc6455": "*"
     },
     "scripts": {
