@@ -1,5 +1,5 @@
 {
-    "name": "ratchet/rfc6455",
+    "name": "louisemcmahon/rfc6455",
     "type": "library",
     "description": "RFC6455 WebSocket protocol handler",
     "keywords": ["WebSockets", "websocket", "RFC6455"],
@@ -32,6 +32,9 @@
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "react/socket": "^1.3"
+    },
+    "replaces": {
+        "ratchet/rfc6455": "*"
     },
     "scripts": {
         "abtest-client": "ABTEST=client && sh tests/ab/run_ab_tests.sh",
